@@ -1,0 +1,512 @@
+/* MEDIA QUERY */
+
+@media (max-width: 1100px) {
+  #ri-menu-line {
+    display: block;
+    color: black;
+  }
+  .nav-links,
+  .nav-btn {
+    display: none;
+  }
+
+  .our-story p {
+    font-size: 16px;
+  }
+  .our-story ul li {
+    font-size: 16px;
+  }
+  .story-img {
+    height: 450px;
+    width: 400px;
+  }
+
+  .our-story h2 {
+    font-size: 26px;
+  }
+
+  .testimonial-section {
+    padding: 20px;
+  }
+  .testimonial-content {
+    gap: 20px;
+    padding: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .ratings {
+    gap: 10px;
+  }
+
+  footer {
+    padding: 40px 20px;
+    height: auto;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .footer-sub input {
+    width: 100%;
+  }
+
+  .footer-links ul {
+    align-items: center;
+  }
+
+  .footer-icons {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main-container h1 {
+    font-size: 2.5rem;
+  }
+
+  .features-bar {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .property-overview {
+    flex-direction: column;
+  }
+  .overview-text {
+    width: 100%;
+  }
+  .overview-image img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+  .property-gallery {
+    gap: 10px;
+  }
+  .gallery-left,
+  .gallery-right {
+    width: 200px;
+    height: 200px;
+  }
+  .gallery-left img,
+  .gallery-right img {
+    border-radius: 12px;
+    height: 200px;
+    object-fit: cover;
+  }
+  .gallery-mid {
+    flex-direction: row;
+    gap: 10px;
+  }
+  .gallery-mid-top,
+  .gallery-mid-bottom {
+    width: 200px;
+    height: 200px;
+  }
+  .gallery-mid-top img,
+  .gallery-mid-bottom img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  .amenities-content {
+    column-gap: 70px;
+    row-gap: 20px;
+  }
+  .agent-contact-title h2 {
+    font-size: 24px;
+  }
+  .agent-info-text h4 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .agent-info-text h5 {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .agent-info-text p {
+    font-size: 11px;
+  }
+  #agent-btn {
+    font-weight: 500;
+    padding: 9px 18px;
+  }
+}
+
+@media (max-width: 935px) {
+  .location {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+    row-gap: 1.2rem;
+    margin: auto;
+  }
+  .property-overview {
+    padding: 100px 60px;
+  }
+  .listings-hero-title {
+    right: 30%;
+  }
+  .filters-bar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 25px;
+    padding: 30px 20px;
+  }
+
+  .filter-search-bar,
+  .other-filters,
+  .filter-actions {
+    width: 100%;
+  }
+
+  .other-filters {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .other-filters select {
+    width: 100%;
+  }
+
+  .story-content {
+    gap: 40px;
+  }
+
+  .story-img {
+    height: 370px;
+    width: 370px;
+  }
+
+  .our-story h2 {
+    font-size: 20px;
+  }
+
+  .testimonial-content {
+    gap: 13px;
+  }
+
+  .main-container h1 {
+    font-size: 2rem;
+  }
+  .main-content p {
+    font-size: 1rem;
+  }
+  .main-search {
+    flex-direction: column;
+  }
+  .main-search select,
+  .main-search input,
+  .main-search button {
+    width: 100%;
+  }
+  .property-gallery {
+    flex-wrap: wrap;
+  }
+  .gallery-mid {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .amenities-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact-header h1 {
+    font-size: 2rem;
+  }
+
+  .contact-card {
+    padding: 25px 20px;
+  }
+
+  .message-form h2,
+  .map-section h2 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 732px) {
+  .story-content {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .testimonial-content {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+@media (max-width: 660px) {
+  .nav-logo {
+    width: 140px;
+  }
+  .title {
+    font-size: 1.6rem;
+  }
+  .card-holder {
+    padding: 10px;
+  }
+  .listings-hero-title {
+    right: 15%;
+  }
+  .filters-bar {
+    padding: 20px;
+    gap: 20px;
+  }
+  .filter-search-bar input,
+  .other-filters select,
+  .red-btn,
+  .clear-btn {
+    font-size: 0.9rem;
+  }
+
+  .filter-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .filter-actions button {
+    width: 100%;
+  }
+  .about-title {
+    font-size: 37px;
+  }
+
+  .about-title-section {
+    right: 20%;
+  }
+  .about-title-section p {
+    font-size: 15px;
+  }
+
+  .about-cta-content h2 {
+    font-size: 25px;
+  }
+
+  #area {
+    max-width: 340px;
+  }
+
+  .properties {
+    padding: 50px 20px;
+  }
+  .property-det-hero {
+    height: 500px;
+  }
+  .property-det-hero img,
+  .overlay {
+    height: 500px;
+  }
+  .det-hero-info {
+    bottom: 30px;
+    left: 20px;
+  }
+  .det-hero-info :first-child {
+    font-size: 12px;
+  }
+  .det-hero-info h2 {
+    font-size: 30px;
+  }
+  .det-hero-info h4 {
+    font-size: 14px;
+  }
+  .sale-badge {
+    font-size: 12px;
+    padding: 3px 6px;
+  }
+  .features-bar p {
+    font-size: 14px;
+  }
+  .amenities-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .property-gallery {
+    gap: 20px;
+  }
+  .location {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 1.2rem;
+  }
+  .det-hero-info :first-child {
+    font-size: 10px;
+  }
+  .det-hero-info h2 {
+    font-size: 20px;
+  }
+  .det-hero-info h4 {
+    font-size: 12px;
+  }
+  .sale-badge {
+    font-size: 12px;
+    padding: 3px 1px;
+  }
+  .property-overview {
+    padding: 80px 40px;
+  }
+  .overview-text-title h2 {
+    font-size: 18px;
+  }
+  .overview-text p {
+    font-size: 15px;
+  }
+  .overview-text ul li {
+    font-size: 13px;
+  }
+  .overview-image {
+    width: 100%;
+  }
+  .overview-image img {
+    width: 100%;
+  }
+  .property-amenities {
+    padding: 40px;
+  }
+  .agent-contact-info {
+    padding: 10px;
+    gap: 10px;
+  }
+  .agent-info-img img {
+    width: 70px;
+    height: 70px;
+  }
+  .agent-contact-title h2 {
+    font-size: 18px;
+  }
+  .agent-info-text h4 {
+    font-size: 15px;
+  }
+  .agent-info-text h5 {
+    font-size: 13px;
+  }
+  .agent-info-text p {
+    font-size: 11px;
+  }
+  #agent-btn {
+    padding: 6px 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-container h1 {
+    font-size: 1.6rem;
+  }
+  .main-content p {
+    font-size: 0.9rem;
+  }
+  .featured-card img {
+    height: 120px;
+  }
+  .cta-home {
+    padding: 3rem 1rem;
+  }
+  .featured-properties-wrapper {
+    padding: 20px;
+  }
+  .listings-hero-title {
+    right: 13%;
+    gap: 7px;
+  }
+  .listings-hero-title h1 {
+    font-size: 23px;
+  }
+  .listings-hero-title p {
+    font-size: 14px;
+  }
+  .property-card {
+    width: 80%;
+    height: 40%;
+  }
+  .property-card-image {
+    height: 150px;
+  }
+  .property-card-image img {
+    height: 100%;
+  }
+  .property-card-info {
+    padding: 5px;
+  }
+  .property-card-info {
+    gap: 10px;
+  }
+  .property-card-info h5,
+  .property-card-info h4 {
+    font-size: 14px;
+  }
+  .property-card-info p {
+    font-size: 11px;
+  }
+  .card-features p {
+    font-size: 12px;
+  }
+  .prop-card-btn {
+    padding: 10px 0px;
+  }
+  #view-details {
+    border-radius: 40px;
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  .about-title-section {
+    bottom: 55%;
+    right: 10%;
+  }
+  .about-title {
+    font-size: 24px;
+  }
+  .story-section {
+    padding: 20px;
+  }
+
+  .story-content-text {
+    gap: 15px;
+    padding: 0 0 0 10px;
+  }
+  .our-story {
+    gap: 10px;
+  }
+  .our-story p,
+  .our-story ul li {
+    font-size: 13px;
+  }
+
+  .story-img {
+    height: 200px;
+    width: 95%;
+  }
+  .testimonial-section {
+    padding: 10px;
+  }
+  .testimonial-section h2 {
+    font-size: 24px;
+  }
+  .testimonial-content h3 {
+    font-size: 16px;
+  }
+  .testimonial {
+    width: 90%;
+    gap: 6px;
+  }
+  .feedback-section h2 {
+    font-size: 24px;
+    padding-bottom: 6px;
+  }
+  .feedback-section p {
+    font-size: 13px;
+  }
+  #area {
+    width: 200px;
+  }
+  .about-cta-content h2 {
+    font-size: 20px;
+  }
+  .about-cta-content p {
+    font-size: 14px;
+  }
+  .cta-about-btn {
+    padding: 6px 10px;
+  }
+}
